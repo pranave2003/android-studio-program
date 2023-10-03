@@ -9,7 +9,7 @@ void main()
 String mul(n,j){
   String c='';
   for(int i=1;i<=n;i++) {
-   c =c+'$i * $j = ${i*j}\n';
+   c =c+ '$i * $j = ${i*j}\n';
  }
 
   return c;
